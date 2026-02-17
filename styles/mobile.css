@@ -203,12 +203,43 @@
     }
 
     .img-categoria{
-        width: 28% ;
+        width: 20% ;
         height: 35%;
     }
     .titulo-categoria{
         font: 700 28px "Montserrat", sans-serif;
         color: var(--color-text);
     }
+
+    .destinos-populares{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .card-destino{
+        display: flex;
+        flex-direction: column;
+        width: 312px;
+        height: 100%;
+        gap: 20px;
+    }
+    .img-destino{
+        width: 100%;
+        height: 360px;
+    }
+    .titulo-destino{
+        font:700 28px "Montserrat", sans-serif;
+    }
+    .descricao-destino{
+        font:400 20px/32px "Montserrat", sans-serif;
+    }
+    .card-destino .btn-detalhes{
+        color: var(--color-text-title);
+        width: 100%;
+    }
+
  
 }
