@@ -94,16 +94,16 @@
         gap: 24px;
     }
 
-    .ofertas-semana h4{
+    .titulo-secao{
         font:700 28px "Montserrat", sans-serif;
         position: relative;
         margin-bottom: 40px;
     }
-    .ofertas-semana h4::before{
+    .titulo-secao::before{
         position: absolute;
         background-color: var(--buttons);
         content: "";
-        width: 70%;
+        width: 170px;
         height: 4px;
         left: 50%;
         transform: translateX(-50%);
@@ -176,5 +176,40 @@
         background-size: cover;
     }
     
+
+    .categorias{
+        width: 90%;
+        margin: 60px auto 0 auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .categorias .titulo-secao{
+        text-align: center;
+        width: 50%;
+    }
+
+    .card-categoria{
+        background-color: var(--background-tertiary);
+        border-radius: 10px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: var(--color-text-title);
+        width: 100%;
+        height: 220px;
+    }
+
+    .img-categoria{
+        width: 28% ;
+        height: 35%;
+    }
+    .titulo-categoria{
+        font: 700 28px "Montserrat", sans-serif;
+        color: var(--color-text);
+    }
  
 }
