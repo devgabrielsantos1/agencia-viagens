@@ -95,6 +95,8 @@
     }
 
     .titulo-secao{
+        text-align: center;
+        width: 74%;
         font:700 28px "Montserrat", sans-serif;
         position: relative;
         margin-bottom: 40px;
@@ -148,7 +150,7 @@
         font:700 32px "Montserrat", sans-serif;
         z-index: 3;
     }
-    .card-oferta a{
+    .btn-detalhes{
         font:700 20px "Montserrat", sans-serif;
         width: 90%;
         padding: 24px 0;
@@ -185,10 +187,7 @@
         flex-direction: column;
         gap: 24px;
     }
-    .categorias .titulo-secao{
-        text-align: center;
-        width: 50%;
-    }
+
 
     .card-categoria{
         background-color: var(--background-tertiary);
