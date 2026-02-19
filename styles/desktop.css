@@ -1,0 +1,432 @@
+@media screen and (max-width: 1440px){
+    body {
+        font-family: "Montserrat", sans-serif;
+        color: var(--color-text);
+    }
+
+    header {
+        background-color: var(--background-secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+
+    header .logo {
+        display: none;
+    }
+    .logo-desktop{
+        width: 350px;
+    }
+
+
+    header label .menu {
+        display: none;
+        width: 50px;
+    }
+
+    header #menu-hamburguer {
+        display: none;
+    }
+
+    #menu-hamburguer:checked~nav {
+        display: block;
+    }
+
+    header nav {
+        color: var(--color-text);
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 50px;
+    }
+
+    header nav ul li {
+        font-size: 24px;
+        list-style: none;
+    }
+
+    header nav ul li a {
+        color: var(--color-text-title);
+    }
+
+    header nav ul li a:hover{
+        color: var(--color-hover);
+    }
+
+
+
+    .banner-homepage {
+        background: url("../imgs/Banner-homepage.png") no-repeat;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center 90%;
+    }
+    
+    .sobre-nos {
+        margin: 80px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .sobre-nos p {
+        font: 400 32px/150% "Montserrat", sans-serif;
+        width: 80%;
+
+    }
+
+    .ofertas-semana {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titulo-secao {
+        text-align: center;
+        width: 74%;
+        font: 700 32px "Montserrat", sans-serif;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .titulo-secao::before {
+        position: absolute;
+        background-color: var(--buttons);
+        content: "";
+        width: 170px;
+        height: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -20px;
+    }
+
+    .box-cards-ofertas {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+
+    .card-oferta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 566px;
+        height: 308px;
+        color: var(--color-text-title);
+        border-radius: 20px;
+
+    }
+
+    .card-oferta::before {
+        position: absolute;
+        content: "";
+        width: 566px;
+        height: 308px;
+        background-color: var(--color-text);
+        opacity: 30%;
+        border-radius: 20px;
+    }
+
+    .card-oferta h3 {
+        font: 20px "Montserrat", sans-serif;
+        z-index: 3;
+    }
+
+    .card-oferta h1 {
+        font: 700 48px "Montserrat", sans-serif;
+        z-index: 3;
+    }
+
+    .card-oferta h2 {
+        font: 700 40px "Montserrat", sans-serif;
+        z-index: 3;
+    }
+
+    .btn-detalhes {
+        font: 700 20px "Montserrat", sans-serif;
+        width: 50%;
+        padding: 24px 0;
+        text-align: center;
+        border-radius: 7px;
+        background-color: var(--buttons);
+        z-index: 3;
+
+    }
+
+    .card-oferta1 {
+        background: url(../imgs/japao-img.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .card-oferta2 {
+        background: url(../imgs/san-andreas-img.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .card-oferta3 {
+        background: url(../imgs/paraiba-img.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .card-oferta4 {
+        background: url(../imgs/manaus-img.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .categorias {
+        width: 80%;
+        margin: 60px auto 60px auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .box-cards-categoria {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .card-categoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        background-color: var(--background-tertiary);
+        border-radius: 10px;
+        color: var(--color-text-title);
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+     .img-categoria{
+        width: 80px ;
+        height: 80px;
+    }
+    .titulo-categoria{
+        width: 70%;
+        font: 700 28px "Montserrat", sans-serif;
+        color: var(--color-text);
+    }
+
+    .destinos-populares{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        width: 100%;
+    }
+    .box-cards-destinos{
+        margin-top: 60px;
+        display: flex;
+        gap: 40px;
+        width: 80%;
+    }
+    .card-destino{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 30px;
+    }
+    
+    .img-destino{
+        width: 100%;
+        height: 450px;
+    }
+    .titulo-destino{
+        font:700 28px "Montserrat", sans-serif;
+    }
+    .descricao-destino{
+        font:400 20px/32px "Montserrat", sans-serif;
+    }
+    .card-destino .btn-detalhes{
+        color: var(--color-text-title);
+        width: 300px;
+        transition: 1s;
+    }
+    .btn-detalhes:hover{
+        background-color: var(--color-hover);
+    }
+
+    .secao-pagamento{
+        margin: 100px 0 60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    } 
+
+     .box-informacoes-pagamento{
+        margin-top: 70px;
+        width: 80%;
+        display: flex;
+
+    }
+    .informacao-pagamento{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+   
+    .informacao-pagamento h4{
+        font:700 28px "Montserrat", sans-serif ;
+        color: var(--color-text);
+        width: 50%;
+        text-align: start;
+    }
+    .informacao-pagamento p{
+        width: 70%;
+        margin-top: 24px;
+        font: 20px/32px "Montserrat", sans-serif;
+    }
+
+    .cards-pagamento{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .card-pagamento{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 20px;
+
+    }
+
+    .imagens-duo{
+        width: 383.5px;
+        height: 254px;
+    }
+    .cards-pagamento .imagem-solo{
+        width: 100%;
+        height: 300px;
+    }
+
+     .secao-depoimento{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-depoimentos{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        gap: 40px;
+    }
+    .card-depoimento{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+    .card-depoimento p{
+        font: 16px/28px "Montserrat", sans-serif;
+        height: 150px;
+        color: var(--color-text);
+    }
+    .usuario-depoimento{
+        gap: 40px;
+        display: flex;
+    }
+    .usuario-nota{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .usuario-nota span{
+        font: 700 20px "Montserrat", sans-serif;
+    }
+
+    .hero-footer{
+        margin: 100px 0 0 0;
+        width: 100%;
+        height: 70dvh;
+        background: url(../imgs/hero-footer.jpg) no-repeat;
+        background-position: center 90%;
+        background-size: cover;
+     
+
+    }
+
+    footer{
+        background-color: var(--background-secondary);
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font:200 16px "Montserrat", sans-serif;
+        color: var(--color-text-title);
+    }
+
+    .box-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .footer-informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        gap: 20px;
+
+    }
+
+    .footer-informacoes img{
+        width: 200px;
+    }
+
+    .footer-redes-sociais{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-redes-sociais div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -5,7 +5,7 @@
         font-family: "Montserrat", sans-serif;
         color: var(--color-text);
     }
-
+    
     header{
         background-color: var(--background-secondary);
         display: flex;
@@ -23,6 +23,9 @@
 
     header .logo{
         width: 70px;
+    }
+    .logo-desktop{
+        display: none;
     }
 
 
@@ -224,15 +227,19 @@
     .destinos-populares{
         margin-top: 60px;
         width: 100%;
+
+    }
+
+    .box-cards-destinos{
         display: flex;
         flex-direction: column;
         gap: 40px;
-        align-items: center;
+        width: 90%;
     }
     .card-destino{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         height: 100%;
         gap: 20px;
     }
@@ -270,6 +277,12 @@
         align-items: center;
         width: 90%;
         margin-bottom: 20px;
+    }
+    .box-informacoes-pagamento{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .informacao-pagamento h4{
         font:700 28px "Montserrat", sans-serif ;
@@ -314,6 +327,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .box-depoimentos{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
     .card-depoimento{
         margin-top: 50px;
         display: flex;
@@ -351,6 +370,7 @@
     footer{
         background-color: var(--background-secondary);
         width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -358,6 +378,7 @@
         font:200 16px "Montserrat", sans-serif;
         color: var(--color-text-title);
     }
+    
     
     .footer-informacoes{
         margin: 40px 0;
@@ -367,6 +388,12 @@
         justify-content: center;
         width: 312px;
         gap: 25px;
+    }
+    .box-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .footer-redes-sociais{
