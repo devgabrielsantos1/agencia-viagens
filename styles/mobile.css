@@ -22,6 +22,7 @@
     }
 
     header .logo{
+        display: block;
         width: 70px;
     }
     .logo-desktop{
@@ -30,6 +31,7 @@
 
 
     header label .menu{
+        display: block;
         width: 50px;
     }
 
