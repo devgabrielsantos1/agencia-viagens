@@ -93,6 +93,7 @@
         flex-direction: column;
         gap: 24px;
     }
+   
 
     .titulo-secao{
         text-align: center;
@@ -112,7 +113,6 @@
         bottom: -20px;
     }
 
-    
 
     .box-cards-ofertas{
         display: flex;
@@ -139,6 +139,7 @@
         height: 288px;
         background-color: var(--color-text);
         opacity: 30%;
+        border-radius: 10px;
     }
 
     .card-oferta h3{
@@ -192,7 +193,12 @@
         gap: 24px;
     }
 
-
+    .box-cards-categoria{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
     .card-categoria{
         text-align: center;
         background-color: var(--background-tertiary);
@@ -202,7 +208,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        color: var(--color-text-title);
         width: 100%;
         height: 220px;
     }
@@ -314,7 +319,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 312px;
+        width: 90%;
     }
     .card-depoimento p{
         font: 16px/28px "Montserrat", sans-serif;
