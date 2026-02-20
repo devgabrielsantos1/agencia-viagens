@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
         font-family: "Montserrat", sans-serif;
         color: var(--color-text);
@@ -120,14 +120,13 @@
 
     .box-cards-ofertas {
         display: flex;
+        flex-direction: row;
         width: 90%;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 20px;
     }
-
-
 
 
     .card-oferta {
@@ -135,7 +134,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        width: 45%;
+        width: 335px;
         height: 288px;
         color: var(--color-text-title);
         border-radius: 20px;
@@ -145,7 +144,7 @@
     .card-oferta::before {
         position: absolute;
         content: "";
-        width: 40.5%;
+        width: 335px;
         height: 288px;
         background-color: var(--color-text);
         opacity: 30%;
@@ -212,8 +211,9 @@
     .box-cards-categoria {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         gap: 10px;
         width: 90%;
     }
@@ -221,20 +221,21 @@
     .card-categoria {
         display: flex;
         flex-direction: column;
+    
         align-items: center;
         justify-content: space-around;
         text-align: center;
         background-color: var(--background-tertiary);
         border-radius: 10px;
         color: var(--color-text-title);
-        width: 45%;
+        width: 49%;
         height: 220px;
         border-radius: 10px;
     }
 
      .img-categoria{
-        width: 110px ;
-        height: 100px;
+        width: 85px ;
+        height: 80px;
     }
     .titulo-categoria{
         font: 700 28px "Montserrat", sans-serif;
@@ -242,6 +243,9 @@
     }
 
     .destinos-populares{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 60px;
         width: 100%;
     }
@@ -324,6 +328,22 @@
         justify-content: space-between;
         gap: 20px;
 
+    }
+    .img-pagamento1 {
+        background-image: url(../imgs/Pagamento1.jpg);
+        background-size: cover;
+        background-position: center;        
+    }
+
+    .img-pagamento2 {
+        background-image: url(../imgs/Pagamento2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .imagem-solo {
+        background-image: url(../imgs/Pagamento3.jpg);
+        background-size: cover;
+        background-position: center 90%;
     }
 
     .imagens-duo{
